@@ -15,6 +15,9 @@
 		5EC801101EDFE84D00FA6E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC8010E1EDFE84D00FA6E38 /* LaunchScreen.storyboard */; };
 		5EC8011B1EDFE84E00FA6E38 /* YHDownLoadLibTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8011A1EDFE84E00FA6E38 /* YHDownLoadLibTests.m */; };
 		5EC801261EDFE84E00FA6E38 /* YHDownLoadLibUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC801251EDFE84E00FA6E38 /* YHDownLoadLibUITests.m */; };
+		5EC801361EDFE89F00FA6E38 /* YHDownLoader.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC801351EDFE89F00FA6E38 /* YHDownLoader.m */; };
+		5EC801391EDFECC100FA6E38 /* YHDownLoadFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC801381EDFECC100FA6E38 /* YHDownLoadFileTool.m */; };
+		5EC8013C1EE00A2A00FA6E38 /* NSString+MD5.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC8013B1EE00A2A00FA6E38 /* NSString+MD5.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		5EC801211EDFE84E00FA6E38 /* YHDownLoadLibUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YHDownLoadLibUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC801251EDFE84E00FA6E38 /* YHDownLoadLibUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YHDownLoadLibUITests.m; sourceTree = "<group>"; };
 		5EC801271EDFE84E00FA6E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5EC801341EDFE89F00FA6E38 /* YHDownLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDownLoader.h; sourceTree = "<group>"; };
+		5EC801351EDFE89F00FA6E38 /* YHDownLoader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDownLoader.m; sourceTree = "<group>"; };
+		5EC801371EDFECC100FA6E38 /* YHDownLoadFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDownLoadFileTool.h; sourceTree = "<group>"; };
+		5EC801381EDFECC100FA6E38 /* YHDownLoadFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDownLoadFileTool.m; sourceTree = "<group>"; };
+		5EC8013A1EE00A2A00FA6E38 /* NSString+MD5.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+MD5.h"; sourceTree = "<group>"; };
+		5EC8013B1EE00A2A00FA6E38 /* NSString+MD5.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+MD5.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		5EC800FF1EDFE84D00FA6E38 /* YHDownLoadLib */ = {
 			isa = PBXGroup;
 			children = (
+				5EC801331EDFE87400FA6E38 /* Classes */,
 				5EC801031EDFE84D00FA6E38 /* AppDelegate.h */,
 				5EC801041EDFE84D00FA6E38 /* AppDelegate.m */,
 				5EC801061EDFE84D00FA6E38 /* ViewController.h */,
@@ -138,6 +148,19 @@
 				5EC801271EDFE84E00FA6E38 /* Info.plist */,
 			);
 			path = YHDownLoadLibUITests;
+			sourceTree = "<group>";
+		};
+		5EC801331EDFE87400FA6E38 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				5EC801341EDFE89F00FA6E38 /* YHDownLoader.h */,
+				5EC801351EDFE89F00FA6E38 /* YHDownLoader.m */,
+				5EC801371EDFECC100FA6E38 /* YHDownLoadFileTool.h */,
+				5EC801381EDFECC100FA6E38 /* YHDownLoadFileTool.m */,
+				5EC8013A1EE00A2A00FA6E38 /* NSString+MD5.h */,
+				5EC8013B1EE00A2A00FA6E38 /* NSString+MD5.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,8 +296,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EC8013C1EE00A2A00FA6E38 /* NSString+MD5.m in Sources */,
 				5EC801081EDFE84D00FA6E38 /* ViewController.m in Sources */,
+				5EC801361EDFE89F00FA6E38 /* YHDownLoader.m in Sources */,
 				5EC801051EDFE84D00FA6E38 /* AppDelegate.m in Sources */,
+				5EC801391EDFECC100FA6E38 /* YHDownLoadFileTool.m in Sources */,
 				5EC801021EDFE84D00FA6E38 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

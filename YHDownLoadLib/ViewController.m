@@ -7,22 +7,33 @@
 //
 
 #import "ViewController.h"
+#import "YHDownLoader.h"
 
 @interface ViewController ()
+
+@property (nonatomic, strong) YHDownLoader *downLoader;
 
 @end
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+#pragma mark-- 懒加载downLoader
+- (YHDownLoader *)downLoader
+{
+    if (_downLoader == nil) {
+        
+        _downLoader = [[YHDownLoader alloc] init];
+    }
+    
+    return _downLoader;
 }
 
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)viewDidLoad {
+    [super viewDidLoad];
+    
+    NSURL *url = [NSURL URLWithString:@"http://free2.macx.cn:8281/tools/photo/SnapNDragPro418.dmg"];
+    [self.downLoader downLoadWithUrl:url];
 }
 
 
