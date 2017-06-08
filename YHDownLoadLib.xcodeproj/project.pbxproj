@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E9FFA971EE8F32500F1FA89 /* YHDownLoadManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E9FFA961EE8F32500F1FA89 /* YHDownLoadManager.m */; };
 		5EC801021EDFE84D00FA6E38 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC801011EDFE84D00FA6E38 /* main.m */; };
 		5EC801051EDFE84D00FA6E38 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC801041EDFE84D00FA6E38 /* AppDelegate.m */; };
 		5EC801081EDFE84D00FA6E38 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EC801071EDFE84D00FA6E38 /* ViewController.m */; };
@@ -38,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5E9FFA951EE8F32500F1FA89 /* YHDownLoadManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHDownLoadManager.h; sourceTree = "<group>"; };
+		5E9FFA961EE8F32500F1FA89 /* YHDownLoadManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHDownLoadManager.m; sourceTree = "<group>"; };
 		5EC800FD1EDFE84D00FA6E38 /* YHDownLoadLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YHDownLoadLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EC801011EDFE84D00FA6E38 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		5EC801031EDFE84D00FA6E38 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -159,6 +162,8 @@
 				5EC801381EDFECC100FA6E38 /* YHDownLoadFileTool.m */,
 				5EC8013A1EE00A2A00FA6E38 /* NSString+MD5.h */,
 				5EC8013B1EE00A2A00FA6E38 /* NSString+MD5.m */,
+				5E9FFA951EE8F32500F1FA89 /* YHDownLoadManager.h */,
+				5E9FFA961EE8F32500F1FA89 /* YHDownLoadManager.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -296,6 +301,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E9FFA971EE8F32500F1FA89 /* YHDownLoadManager.m in Sources */,
 				5EC8013C1EE00A2A00FA6E38 /* NSString+MD5.m in Sources */,
 				5EC801081EDFE84D00FA6E38 /* ViewController.m in Sources */,
 				5EC801361EDFE89F00FA6E38 /* YHDownLoader.m in Sources */,
@@ -533,6 +539,7 @@
 				5EC8012C1EDFE84E00FA6E38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC8012D1EDFE84E00FA6E38 /* Build configuration list for PBXNativeTarget "YHDownLoadLibTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +548,7 @@
 				5EC8012F1EDFE84E00FA6E38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5EC801301EDFE84E00FA6E38 /* Build configuration list for PBXNativeTarget "YHDownLoadLibUITests" */ = {
 			isa = XCConfigurationList;
@@ -549,6 +557,7 @@
 				5EC801321EDFE84E00FA6E38 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
